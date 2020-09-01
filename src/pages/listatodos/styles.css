@@ -1,0 +1,43 @@
+.lista-list{
+ max-width: 700px;
+ margin: 20px auto 0;
+ padding: 0 20px;
+}
+
+.lista-list article{
+ background: #fff;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 20px;
+ margin-bottom: 20px;
+
+}
+.lista-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.lista-list .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #228B22;
+    color: #fff;
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.lista-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+.lista-list .actions button:hover {
+    opacity: 0.7;
+
+
+}
+.lista-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}

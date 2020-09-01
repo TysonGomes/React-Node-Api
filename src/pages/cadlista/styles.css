@@ -1,0 +1,91 @@
+.cad-Form{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+
+
+}
+.cad-Form label{
+    background: #228B22;
+    color: #fff;
+    border: 1px solid #ddd;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    display:block ;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    
+}
+.cad-Form input{
+    display: block;
+    background:  #fff;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.cad-Form label input[disabled] {
+   
+    background: #CCC;
+}
+.cad-Form .buttons button {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 42%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #228B22;
+    color: #fff;
+    font-size:16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.cad-Form .inputButton{
+    cursor: pointer;
+    background: #228B22;
+    color: #fff;
+}
+.cad-Form .inputButton:hover{
+    opacity: 0.7;
+}
+.cad-Form .buttons button:hover{
+    opacity: 0.7;
+}
+.cad-Form .list-listaitens ul{
+    list-style: none;
+    background: #8e928ac0;
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+.cad-Form .list-listaitens ul li {
+    font-weight: bold;
+}
+.cad-Form .list-listaitens ul li button{
+   /* display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 42%;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color:#228B22;
+    font-size:18px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+.cad-Form .list-listaitens ul li button:hover{
+    opacity: 0.7;
+}
